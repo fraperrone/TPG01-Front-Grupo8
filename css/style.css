@@ -125,4 +125,10 @@ a:hover {
     padding: 2rem;
 }
 
+/* Quitar los puntos de los elementos de lista dentro de .section */
+.section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
 /* End of style.css */
