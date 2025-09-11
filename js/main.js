@@ -8,6 +8,24 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+// Menú desplegable de Integrantes
+document.addEventListener('DOMContentLoaded', function() {
+    const dropdown = document.getElementById('integrantesDropdown');
+    const link = document.getElementById('integrantesLink');
+    if (dropdown && link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            dropdown.classList.toggle('open');
+        });
+        // Cierra el menú si se hace clic fuera
+        document.addEventListener('click', function(e) {
+            if (!dropdown.contains(e.target) && dropdown.classList.contains('open')) {
+                dropdown.classList.remove('open');
+            }
+        });
+    }
+});
+
 document.addEventListener("DOMContentLoaded", () => {
     const section = document.createElement("section");
     section.id = "saludar";
