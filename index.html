@@ -1,21 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- link style.css -->
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
-    
-    <!-- La portada debe incluir:
--El nombre del equipo o del grupo de trabajo.
--Una presentación breve del equipo, describiendo su propósito o enfoque del proyecto.
--Un listado completo de los integrantes, mostrando los nombres de cada estudiante.
--Cada nombre del listado debe estar vinculado a una página individual donde cada
-estudiante pueda mostrar su tarjeta de presentación con información personal, intereses
-o habilidades. -->
+    <nav>
+        <div class="container">
+
+            <ul class="nav-list">
+                <li class="dropdown" id="integrantesDropdown">
+                    <a href="#" id="integrantesLink">Integrantes</a>
+                    <div class="dropdown-content" id="integrantesList">
+                        <ul>
+                            <li><a href="students/franco.html">Franco Perrone Rey</a></li>
+                            <li><a href="students/carlos.html">Carlos Sebastian Gauto</a></li>
+                            <li><a href="#">[Integrante 3]</a></li>
+                            <li><a href="#">[Integrante 4]</a></li>
+                            <li><a href="#">[Integrante 5]</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="bitacora/bitacora.html">Bitácora</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <header>
         <h1>Equipo de Desarrollo Web - GRUPO 8</h1>
         <p>Somos un grupo de estudiantes dedicados a crear soluciones web innovadoras y funcionales.</p>
@@ -31,7 +45,6 @@ o habilidades. -->
     </header>
 
 
-    <!-- script a mian.js -->
     <script src="js/main.js"></script>
 </body>
 </html>
