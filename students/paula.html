@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Tarjeta de Presentación - Paula</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-    <div class="section container text-center mt-1">
-        <!-- Foto -->
-        <img src="../img/avatar-paula.jpg" alt="Avatar Paula Cyberpunk style" width="256" height="384">
-        
-        <!-- Nombre -->
-        <h2>Paula Nuñez</h2>
-        
-        <!-- Ubicación actual -->
-        <p><strong>Ubicación actual:</strong> San Carlos de Bariloche, Argentina</p>
-        
-        <!-- Edad -->
-        <p><strong>Edad:</strong> 26 años</p>
-        
-        <!-- Habilidades -->
-        <h3>Habilidades</h3>
-        <ul>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="../css/tarjeta-paula.css" />
+    <title>Tarjeta de presentación - Nuñez Cresto Paula</title>
+  </head>
+  <body class="body">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+
+    <main class="profile" ontouchstart="true">
+      <div class="background"></div>
+
+      <aside class="avatar"></aside>
+
+      <section class="name">
+        <div class="volver-container">
+          <a html href="../index.html">
+            <button class="button-volver">volver</button>
+          </a>
+        </div>
+
+        <h1>Paula Nuñez Cresto</h1>
+        <ul class="info">
+          <h3 class="title">Habilidades</h3>
+          <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
             <li>Webflow</li>
-        </ul>
-        
-        <!-- Películas favoritas -->
-        <h3>Películas favoritas</h3>
-        <ul>
+          </ul>
+          <h3 class="title">Películas favoritas</h3>
+          <ul>
             <li>Brake</li>
             <li>Click</li>
             <li>El Descenso</li>
-        </ul>
-        
-        <!-- Discos o música favorita -->
-        <h3>Discos o música favorita</h3>
-        <ul>
+          </ul>
+          <h3 class="title">Discos o música favorita</h3>
+          <ul>
             <li>Linkin Park - Meteora</li>
             <li>A Day to Remember - What Separates Me from You</li>
             <li>Black Veil Brides - Set the World on Fire</li>
+          </ul>
         </ul>
-    </div>
-    <div class="text-center">
-        <a href="../index.html" class="button mt-1">Volver a inicio</a>
-    </div>
-</body>
+      </section>
+    </main>
+    <script src="../js/paula-script.js"></script>
+  </body>
 </html>
