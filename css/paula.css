@@ -236,6 +236,10 @@ h3 {
   margin: 0;
 }
 
+h1 {
+  margin: 0;
+}
+
 .name ul {
   display: flex;
   flex-direction: column;
