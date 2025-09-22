@@ -1,172 +1,185 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;700&display=swap");
 
 /* Base styles */
 :root {
-    --primary-color: #2a7ae4;
-    --secondary-color: #f5f5f5;
-    --accent-color: #e94f37;
-    --text-color: #222;
-    --heading-font: 'Montserrat', Arial, sans-serif;
-    --body-font: 'Roboto', Arial, sans-serif;
-    --border-radius: 8px;
-    --transition: 0.2s ease;
+  --primary-color: #2a7ae4;
+  --secondary-color: #f5f5f5;
+  --accent-color: #e94f37;
+  --text-color: #222;
+  --heading-font: "Montserrat", Arial, sans-serif;
+  --body-font: "Roboto", Arial, sans-serif;
+  --border-radius: 8px;
+  --transition: 0.2s ease;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: var(--body-font);
-    background: var(--secondary-color);
-    color: var(--text-color);
-    line-height: 1.6;
-    font-size: 1rem;
+  font-family: var(--body-font);
+  background: var(--secondary-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  font-size: 1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-    margin-bottom: 0.5em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  margin-bottom: 0.5em;
 }
 
 a {
-    color: var(--primary-color);
-    text-decoration: none;
-    transition: color var(--transition);
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color var(--transition);
 }
 a:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
 /* Example button style */
 .button {
-    background: var(--primary-color);
-    color: #fff;
-    border: none;
-    border-radius: var(--border-radius);
-    padding: 0.75em 1.5em;
-    font-family: var(--heading-font);
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background var(--transition);
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.75em 1.5em;
+  font-family: var(--heading-font);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background var(--transition);
 }
 .button:hover {
-    background: var(--accent-color);
+  background: var(--accent-color);
 }
 
 /* Responsive Design */
 
 /* Mobile: up to 400px */
 @media (max-width: 400px) {
-    body {
-        font-size: 0.95rem;
-        padding: 0.5rem;
-    }
-    .container {
-        padding: 1rem 0.5rem;
-    }
-    h1 {
-        font-size: 1.5rem;
-    }
-    h2 {
-        font-size: 1.2rem;
-    }
-    .button {
-        padding: 0.5em 1em;
-        font-size: 0.95rem;
-    }
+  body {
+    font-size: 0.95rem;
+    padding: 0.5rem;
+  }
+  .container {
+    padding: 1rem 0.5rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .button {
+    padding: 0.5em 1em;
+    font-size: 0.95rem;
+  }
 }
 
 /* Tablet: up to 900px */
 @media (max-width: 900px) {
-    .container {
-        max-width: 90vw;
-        padding: 1.5rem 1rem;
-    }
-    h1 {
-        font-size: 2rem;
-    }
-    h2 {
-        font-size: 1.5rem;
-    }
+  .container {
+    max-width: 90vw;
+    padding: 1.5rem 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
 }
 
 /* Desktop: up to 1200px */
 @media (max-width: 1200px) {
-    .container {
-        max-width: 95vw;
-        padding: 2rem 1rem;
-    }
+  .container {
+    max-width: 95vw;
+    padding: 2rem 1rem;
+  }
 }
 
 /* Utility classes */
-.mt-1 { margin-top: 1rem; }
-.mb-1 { margin-bottom: 1rem; }
-.p-1 { padding: 1rem; }
-.text-center { text-align: center; }
+.mt-1 {
+  margin-top: 1rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.p-1 {
+  padding: 1rem;
+}
+.text-center {
+  text-align: center;
+}
 
 /* Add more styles as needed for your sections */
 /* Example section style */
 .section {
-    background: #fff;
-    border-radius: var(--border-radius);
-    box-shadow: 0 2px 8px rgba(42, 122, 228, 0.08);
-    margin-bottom: 2rem;
-    padding: 2rem;
+  background: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 8px rgba(42, 122, 228, 0.08);
+  margin-bottom: 2rem;
+  padding: 2rem;
 }
 
 /* Quitar los puntos de los elementos de lista dentro de .section */
 .section ul {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 /* End of style.css */
 
-        nav {
-            background: #f4f4f4;
-            padding: 1rem;
-            margin-bottom: 2rem;
-        }
-        .nav-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            gap: 2rem;
-        }
-        .dropdown {
-            position: relative;
-        }
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background: #fff;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            padding: 1rem;
-            top: 2rem;
-            left: 0;
-            z-index: 10;
-            min-width: 200px;
-        }
-        .dropdown-content ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        .dropdown-content li {
-            margin-bottom: 0.5rem;
-        }
-        .dropdown.open .dropdown-content {
-            display: block;
-        }
+nav {
+  background: #f4f4f4;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  top: 2rem;
+  left: 0;
+  z-index: 10;
+  min-width: 200px;
+}
+.dropdown-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.dropdown-content li {
+  margin-bottom: 0.5rem;
+}
+.dropdown.open .dropdown-content {
+  display: block;
+}
