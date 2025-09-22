@@ -195,9 +195,7 @@ select { /* 1 */
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
+[type="submit"]
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -287,10 +285,7 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 
-[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
-}
+[type="search"]
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
@@ -369,7 +364,7 @@ p{
 #nav{
     margin: 0px;
     border-color: #333;
-    height: 5vh;
+    min-height: 5vh;
 }
 
 
@@ -418,7 +413,7 @@ header {
     transition: background-color 0.6s;
     background-color: #5247d6;
     width:100% ;
-    height: 4vh;
+    min-height: 4vh;
 }
 
 .nav_item:hover {
