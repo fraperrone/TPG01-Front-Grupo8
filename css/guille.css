@@ -364,7 +364,7 @@ p{
 #nav{
     margin: 0px;
     border-color: #333;
-    height: 5vh;
+    min-height: 5vh;
 }
 
 
@@ -413,7 +413,7 @@ header {
     transition: background-color 0.6s;
     background-color: #5247d6;
     width:100% ;
-    height: 4vh;
+    min-height: 4vh;
 }
 
 .nav_item:hover {
